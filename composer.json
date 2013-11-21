@@ -1,0 +1,32 @@
+{
+    "name": "alanpich/rackspace-ews-auth",
+    "description": "Tiny authentication provider for checking login credentials against Rackspace hosted exchange accounts",
+    "authors": [
+        {
+            "name": "Alan Pich",
+            "email": "alan.pich@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "alanpich/php-rackspace-ews-auth",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/weaverryan/php-rackspace-ews-auth.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0" : {
+                        "AlanPich\\Auth\\RackspaceEws" : "src"
+                    }
+                }
+            }
+        }
+    ],
+    "require": {
+
+    }
+}
